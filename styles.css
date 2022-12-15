@@ -741,7 +741,7 @@ header nav .save-btn {
 }
 
 #benefits {
-  padding: 52px 28px;
+  padding: 52px 28px 0 28px;
 }
 
 #benefits h3 {
@@ -753,6 +753,10 @@ header nav .save-btn {
   color: #181818;
 
   padding-bottom: 42px;
+}
+
+#benefits .swipe-wrapper {
+  padding-bottom: 52px;
 }
 
 #benefits .swiper {
@@ -1051,4 +1055,42 @@ input:checked+label:after {
 
 label:active:after {
   width: 130px;
+}
+
+/* MOBILE STYLES */
+@media (max-width:768px) {
+  body {
+    padding: 0;
+  }
+
+  .phoneframe {
+    margin: 0 !important;
+    max-width: 100%;
+  }
+
+  label,
+  input,
+  .toggle {
+    display: none;
+  }
+
+  .phoneframe nav {
+    position: sticky;
+    top: 0;
+    height: 60px;
+    width: 100%;
+  }
+
+  header>img {
+    max-width: 100%;
+  }
+
+  .swipe-wrapper {
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+
+  #facts .factlist>li {
+    width: auto;
+  }
 }

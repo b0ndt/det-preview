@@ -2,43 +2,47 @@
   box-sizing: border-box;
 }
 
-input:checked~.phoneframe {
-  box-sizing: content-box !important;
-  padding: 80px 35px 125px 35px;
-  width: 375px;
-  height: 600px;
-  border-radius: 40px/3px;
-  margin: 0 auto;
-}
+@media (min-width:768px) {
 
-input:checked~.phoneframe .top-bar,
-input:checked~.phoneframe .camera,
-input:checked~.phoneframe .volume,
-input:checked~.phoneframe .speaker {
-  display: block;
-}
+  input:checked~.phoneframe {
+    box-sizing: content-box !important;
+    padding: 80px 35px 125px 35px;
+    width: 375px;
+    height: 600px;
+    border-radius: 40px/3px;
+    margin: 0 auto;
+  }
 
-input:checked~.phoneframe .swipe-wrapper {
-  overflow-x: auto;
-  overflow-y: hidden;
-}
+  input:checked~.phoneframe .top-bar,
+  input:checked~.phoneframe .camera,
+  input:checked~.phoneframe .volume,
+  input:checked~.phoneframe .speaker {
+    display: block;
+  }
 
-input:checked~.phoneframe .screen {
-  border-radius: 1px;
-  box-shadow: 0 0 0 3px #111;
-  width: 100%;
-  position: relative;
-  height: 100%;
-  z-index: 3;
-  background: #f7f7f7;
-  overflow-x: hidden;
-  overflow-y: auto;
-}
+  input:checked~.phoneframe .swipe-wrapper {
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
 
-input:checked~.phoneframe nav {
-  position: sticky;
-  top: 0;
-  height: 60px;
+  input:checked~.phoneframe .screen {
+    border-radius: 1px;
+    box-shadow: 0 0 0 3px #111;
+    width: 100%;
+    position: relative;
+    height: 100%;
+    z-index: 3;
+    background: #f7f7f7;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+
+  input:checked~.phoneframe nav {
+    position: sticky;
+    top: 0;
+    height: 60px;
+  }
+
 }
 
 .phoneframe {
