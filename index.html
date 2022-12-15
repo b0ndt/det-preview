@@ -1,0 +1,410 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Dein erster Tag | App Preview</title>
+  <meta name="description"
+    content="Tauche mit DEIN ERSTER TAG in die Ausbildung bei den spannendsten Unternehmen ein. Finde mit unseren zahlreichen Videos den Beruf, der zu dir passt!" />
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="icon" href="./images/favicon.png">
+  <link href="styles.css" rel="stylesheet">
+  <link href="phone.css" rel="stylesheet">
+</head>
+
+<body>
+  Toggle Phone:
+  <input type="checkbox" id="switch" />
+  <label for="switch">Toggle Phone</label>
+  <main id="jobcard"></main>
+  <main id="jobdetails" class="phoneframe">
+    <div class="top-bar"></div>
+    <div class="camera"></div>
+    <div class="speaker"></div>
+    <div class="screen">
+      <header>
+        <nav>
+          <div class="wrapper">
+            <a class="back-btn" href="#" title="Zurück Button">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M13.4892 9.88199C13.8545 9.58273 13.908 9.04402 13.6087 8.67876C13.3094 8.3135 12.7707 8.25999 12.4055 8.55926C10.05 10.4891 8.63811 12.2319 6.91393 14.3602C6.79904 14.502 6.68275 14.6456 6.56471 14.791C6.30981 15.105 6.30981 15.5547 6.56471 15.8687C6.97675 16.3763 7.37064 16.8825 7.7622 17.3857C9.11869 19.129 10.4472 20.8364 12.4055 22.4408C12.7707 22.7401 13.3094 22.6866 13.6087 22.3213C13.908 21.9561 13.8545 21.4174 13.4892 21.1181C11.6925 19.646 10.5119 18.1303 9.17843 16.4183C9.11803 16.3408 9.05731 16.2628 8.9962 16.1845C9.005 16.1847 9.01384 16.1849 9.0227 16.1849H25.2528C25.725 16.1849 26.1078 15.8021 26.1078 15.3299C26.1078 14.8577 25.725 14.4749 25.2528 14.4749H9.02509C10.3996 12.7983 11.6244 11.4099 13.4892 9.88199Z"
+                  fill="#181818" />
+              </svg>
+            </a>
+            <h1>
+              <div class="logo">
+                <img src="./images/logo.png" alt="Logo" />
+              </div>
+              Feuerwehr Hamburg
+            </h1>
+            <a class="save-btn" href="#" title="Merken Button">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M23.7214 24.2183C23.67 24.9256 22.8031 25.2561 22.2776 24.7691L17.5646 20.4015C16.9672 19.848 16.0328 19.848 15.4354 20.4015L10.7225 24.7691C10.1969 25.2561 9.33009 24.9256 9.27857 24.2183C8.92841 19.4131 8.91364 14.5942 9.20451 9.78824C9.29998 8.21097 10.6473 7 12.2592 7H20.7408C22.3526 7 23.7 8.21097 23.7955 9.78824C24.0863 14.5942 24.0716 19.4131 23.7214 24.2183Z"
+                  fill="#181818" stroke="#181818" stroke-width="1.71429" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg>
+            </a>
+          </div>
+        </nav>
+        <img src="./images/hero.png" alt="Hero Image" />
+      </header>
+      <section id="details">
+        <div class="swipe-wrapper">
+          <ul class="swiper">
+            <li>
+              <h4>Notfallsanitäter*in</h4>
+              <p>Du übernimmst die medizinische Erstversorgung und kümmerst dich um Patient*innen auf dem Weg ins
+                Krankenhaus.
+              </p>
+              <div class="badge">
+                <svg width="107" height="100" viewBox="0 0 107 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M106.603 0V75.6222C106.603 88.8771 95.8574 99.6222 82.6026 99.6222H0C13.1845 48.997 54.7006 9.80771 106.603 0Z"
+                    fill="#FFEC5C" />
+                </svg>
+              </div>
+            </li>
+            <li>
+              <h4>Das Unternehmen</h4>
+              <p>Ob Brandbekämpfung, technische Hilfeleistung oder Rettungsdienst: Teamgeist und Einsatzbereitschaft
+                stehen
+                bei uns an oberster Stelle. </p>
+              <div class="badge">
+                <svg width="107" height="100" viewBox="0 0 107 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M106.603 0V75.6222C106.603 88.8771 95.8574 99.6222 82.6026 99.6222H0C13.1845 48.997 54.7006 9.80771 106.603 0Z"
+                    fill="#F47D4A" />
+                </svg>
+              </div>
+            </li>
+            <li>
+              <h4>Der Purpose</h4>
+              <p>Du hilfst Menschen in Notsituationen und rettest Leben.</p>
+              <div class="badge">
+                <svg width="107" height="100" viewBox="0 0 107 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M106.603 0V75.6222C106.603 88.8771 95.8574 99.6222 82.6026 99.6222H0C13.1845 48.997 54.7006 9.80771 106.603 0Z"
+                    fill="#00AFD6" />
+                </svg>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <ul class="pager">
+          <li>
+            <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="4" cy="4" r="4" fill="#00AFD6" />
+            </svg>
+          </li>
+          <li>
+            <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="4" cy="4" r="4" fill="#B5B8BA" />
+            </svg>
+          </li>
+          <li>
+            <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="4" cy="4" r="4" fill="#B5B8BA" />
+            </svg>
+          </li>
+        </ul>
+        <h2>Nachricht für dich.</h2>
+        <div class="audioplayer">
+          <audio id="audio">
+            <source src="audio/rob.mp3" type="audio/mp3">
+          </audio>
+          <picture>
+            <source srcset="images/rob.avif" type="image/avif">
+            <source srcset="images/rob.webp" type="image/webp">
+            <img id="avatar" width="214" height="220" src="images/rob.png" alt="Rob" />
+          </picture>
+          <button id="playAudio" aria-label="Play Audio"></button>
+          <div class="player-controls">
+            <div id="seekObjContainer">
+              <div id="seekObj">
+                <div id="percentage"></div>
+              </div>
+              <svg width="199" height="33" viewBox="0 0 199 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                  <clipPath id="myClip">
+                    <rect y="12" width="1.93206" height="9" fill="#0091B8" />
+                    <rect x="2.89246" width="1.93206" height="33" fill="#0091B8" />
+                    <rect x="5.79578" y="3" width="1.93206" height="27" fill="#0091B8" />
+                    <rect x="8.69556" y="6" width="1.93206" height="21" fill="#0091B8" />
+                    <rect x="11.588" width="1.93206" height="33" fill="#0091B8" />
+                    <rect x="14.4913" y="13.5" width="1.93206" height="6" fill="#0091B8" />
+                    <rect x="17.391" y="15" width="1.93206" height="3" fill="#0091B8" />
+                    <rect x="20.2871" y="12" width="1.93206" height="9" fill="#0091B8" />
+                    <rect x="23.1868" y="10.5" width="1.93206" height="12" fill="#0091B8" />
+                    <rect x="26.0865" y="7.5" width="1.93206" height="18" fill="#0091B8" />
+                    <rect x="28.9825" width="1.93206" height="33" fill="#B5B8BA" />
+                    <rect x="31.8751" y="6" width="1.93206" height="21" fill="#B5B8BA" />
+                    <rect x="34.7748" y="10.5" width="1.93206" height="12" fill="#B5B8BA" />
+                    <rect x="37.6781" y="10.5" width="1.93206" height="12" fill="#B5B8BA" />
+                    <rect x="40.5706" y="4.5" width="1.93206" height="24" fill="#B5B8BA" />
+                    <rect x="43.4667" y="13.5" width="1.93206" height="6" fill="#B5B8BA" />
+                    <rect x="46.3738" y="7.5" width="1.93206" height="18" fill="#B5B8BA" />
+                    <rect x="49.2661" y="4.5" width="1.93206" height="24" fill="#B5B8BA" />
+                    <rect x="52.1622" width="1.93206" height="33" fill="#B5B8BA" />
+                    <rect x="55.0688" width="1.93206" height="33" fill="#B5B8BA" />
+                    <rect x="57.9615" width="1.93206" height="33" fill="#B5B8BA" />
+                    <rect x="60.8649" y="4.5" width="1.93206" height="24" fill="#B5B8BA" />
+                    <rect x="63.7573" y="10.5" width="1.93206" height="12" fill="#B5B8BA" />
+                    <rect x="66.6571" y="4.5" width="1.93206" height="24" fill="#B5B8BA" />
+                    <rect x="69.5532" width="1.93206" height="33" fill="#B5B8BA" />
+                    <rect x="72.4529" y="9" width="1.93206" height="15" fill="#B5B8BA" />
+                    <rect x="75.349" y="13.5" width="1.93206" height="6" fill="#B5B8BA" />
+                    <rect x="78.2489" y="4.5" width="1.93206" height="24" fill="#B5B8BA" />
+                    <rect x="81.1484" y="4.5" width="1.93206" height="24" fill="#B5B8BA" />
+                    <rect x="84.0444" y="10.5" width="1.93206" height="12" fill="#B5B8BA" />
+                    <rect x="86.9442" y="7.5" width="1.93206" height="18" fill="#B5B8BA" />
+                    <rect x="89.8439" y="12" width="1.93206" height="9" fill="#B5B8BA" />
+                    <rect x="92.74" y="15" width="1.93206" height="3" fill="#B5B8BA" />
+                    <rect x="95.6396" y="15" width="1.93206" height="3" fill="#B5B8BA" />
+                    <rect x="98.5286" y="12" width="1.93206" height="9" fill="#B5B8BA" />
+                    <rect x="101.436" y="10.5" width="1.93206" height="12" fill="#B5B8BA" />
+                    <rect x="104.335" y="6" width="1.93206" height="21" fill="#B5B8BA" />
+                    <rect x="107.224" width="1.93206" height="33" fill="#B5B8BA" />
+                    <rect x="110.131" y="3" width="1.93206" height="27" fill="#B5B8BA" />
+                    <rect x="113.023" width="1.93206" height="33" fill="#B5B8BA" />
+                    <rect x="115.92" width="1.93206" height="33" fill="#B5B8BA" />
+                    <rect x="118.827" y="4.5" width="1.93206" height="24" fill="#B5B8BA" />
+                    <rect x="121.719" y="15" width="1.93206" height="3" fill="#B5B8BA" />
+                    <rect x="124.615" width="1.93206" height="33" fill="#B5B8BA" />
+                    <rect x="127.515" y="10.5" width="1.93206" height="12" fill="#B5B8BA" />
+                    <rect x="130.411" y="4.5" width="1.93206" height="24" fill="#B5B8BA" />
+                    <rect x="133.318" width="1.93206" height="33" fill="#B5B8BA" />
+                    <rect x="136.21" y="10.5" width="1.93206" height="12" fill="#B5B8BA" />
+                    <rect x="139.106" y="6" width="1.93206" height="21" fill="#B5B8BA" />
+                    <rect x="142.006" y="7.5" width="1.93206" height="18" fill="#B5B8BA" />
+                    <rect x="144.906" y="7.5" width="1.93206" height="18" fill="#B5B8BA" />
+                    <rect x="147.802" y="15" width="1.93206" height="3" fill="#B5B8BA" />
+                    <rect x="150.702" width="1.93206" height="33" fill="#B5B8BA" />
+                    <rect x="153.598" y="7.5" width="1.93206" height="18" fill="#B5B8BA" />
+                    <rect x="156.497" y="15" width="1.93206" height="3" fill="#B5B8BA" />
+                    <rect x="159.397" y="10.5" width="1.93206" height="12" fill="#B5B8BA" />
+                    <rect x="162.293" y="7.5" width="1.93206" height="18" fill="#B5B8BA" />
+                    <rect x="165.189" y="4.5" width="1.93206" height="24" fill="#B5B8BA" />
+                    <rect x="168.093" y="7.5" width="1.93206" height="18" fill="#B5B8BA" />
+                    <rect x="170.989" y="10.5" width="1.93206" height="12" fill="#B5B8BA" />
+                    <rect x="173.888" y="4.5" width="1.93206" height="24" fill="#B5B8BA" />
+                    <rect x="176.784" y="13.5" width="1.93206" height="6" fill="#B5B8BA" />
+                    <rect x="179.677" y="4.5" width="1.93206" height="24" fill="#B5B8BA" />
+                    <rect x="182.584" width="1.93206" height="33" fill="#B5B8BA" />
+                    <rect x="185.48" y="4.5" width="1.93206" height="24" fill="#B5B8BA" />
+                    <rect x="188.373" y="10.5" width="1.93206" height="12" fill="#B5B8BA" />
+                    <rect x="191.279" width="1.93206" height="33" fill="#B5B8BA" />
+                    <rect x="194.168" y="4.5" width="1.93206" height="24" fill="#B5B8BA" />
+                    <rect x="197.068" y="9" width="1.93206" height="15" fill="#B5B8BA" />
+                  </clipPath>
+                </defs>
+              </svg>
+            </div>
+          </div>
+          <p>Magnus, Mitarbeiter im Personalauswahlzentrum</p>
+        </div>
+      </section>
+      <section id="facts">
+        <h3>Du willst Fakten?<br>Hier sind sie.</h3>
+        <ul class="factlist">
+          <li>
+            <h4>Arbeitszeit</h4>
+            <p>Unterschied-lich</p>
+            <div class="line"></div>
+            <h4>Arbeit am Wochenende</h4>
+            <p>Ja</p>
+          </li>
+          <li class="map">
+            <img src="./images/marker.png" alt="Marker" />
+            <p>25 km</p>
+            <h4>von deinem Standort entfernt</h4>
+          </li>
+          <li class="money">
+            <img src="./images/moneyface.png" alt="Money Emoji" />
+            <h4>Wie viel?</h4>
+            <ol>
+              <li>1036,82 €</li>
+              <li>1090,96 €</li>
+              <li>1140,61 €</li>
+            </ol>
+          </li>
+          <li class="vacation">
+            <p>30</p>
+            <h4>Tage Urlaub</h4>
+          </li>
+          <li class="startdate">
+            <img src="./images/rocket.png" alt="Rocket" />
+            <h4>Ab wann?</h4>
+            <p>01.08.2023</p>
+          </li>
+          <li class="duration">
+            <img src="./images/clock.png" alt="Clock">
+            <h4>Wie lange?</h4>
+            <p>3 Jahre</p>
+          </li>
+          <li>
+            <h4>Geforderter Schulabschluss</h4>
+            <p>Hauptschul-abschluss</p>
+          </li>
+        </ul>
+      </section>
+      <section id="benefits">
+        <h3>Und was ist noch für dich drin? Guck mal hier.</h3>
+        <div class="swipe-wrapper">
+          <ul class="swiper">
+            <li>
+              <div class="badge">
+                <svg width="328" height="229" viewBox="0 0 328 229" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M416.992 -36C449.684 -34.2583 480.683 -20.549 503.951 2.63562C528.899 27.4947 542.914 61.2109 542.914 96.367C542.914 131.523 528.899 165.239 503.951 190.098C479.003 214.957 445.166 228.923 409.885 228.923H224.531C206.43 228.918 188.52 225.231 171.898 218.089C155.277 210.948 140.292 200.501 127.863 187.389L-100.999 -36H416.992Z"
+                    fill="#FFEC5C" />
+                </svg>
+              </div>
+              <img src="./images/pig.png" alt="Pig" />
+              <ul class="pager">
+                <li>
+                  <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="4" cy="4" r="4" fill="#00AFD6" />
+                  </svg>
+                </li>
+                <li>
+                  <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="4" cy="4" r="4" fill="#B5B8BA" />
+                  </svg>
+                </li>
+                <li>
+                  <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="4" cy="4" r="4" fill="#B5B8BA" />
+                  </svg>
+                </li>
+              </ul>
+              <h4>Monatlich sparen</h4>
+              <p>Du erhältst das BonusTicket für Azubis und kannst für 30 € im Monat das gesamte HVV-Netz nutzen.</p>
+            </li>
+            <li>
+              <div class="badge">
+                <svg width="328" height="206" viewBox="0 0 328 206" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect x="-18" y="-73" width="367" height="279" fill="#FFEC5C" />
+                </svg>
+              </div>
+              <img src="./images/coins.png" alt="Coins" />
+              <ul class="pager">
+                <li>
+                  <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="4" cy="4" r="4" fill="#B5B8BA" />
+                  </svg>
+                </li>
+                <li>
+                  <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="4" cy="4" r="4" fill="#00AFD6" />
+                  </svg>
+                </li>
+                <li>
+                  <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="4" cy="4" r="4" fill="#B5B8BA" />
+                  </svg>
+                </li>
+              </ul>
+              <h4>Bonus für dich</h4>
+              <p>Du bekommst eine Jahressonderzahlung und erhältst bei erfolgreichem Abschluss eine Abschlussprämie.</p>
+            </li>
+            <li>
+              <div class="badge">
+                <svg width="274" height="242" viewBox="0 0 274 242" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M147.992 -23C180.684 -21.2583 211.683 -7.549 234.951 15.6356C259.899 40.4947 273.914 74.2109 273.914 109.367C273.914 144.523 259.899 178.239 234.951 203.098C210.003 227.957 176.166 241.923 140.885 241.923H-44.4691C-62.5703 241.918 -80.4799 238.231 -97.1017 231.089C-113.723 223.948 -128.708 213.501 -141.137 200.389L-369.999 -23H147.992Z"
+                    fill="#FFEC5C" />
+                </svg>
+              </div>
+              <img src="./images/present.png" alt="Present" />
+              <ul class="pager">
+                <li>
+                  <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="4" cy="4" r="4" fill="#B5B8BA" />
+                  </svg>
+                </li>
+                <li>
+                  <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="4" cy="4" r="4" fill="#B5B8BA" />
+                  </svg>
+                </li>
+                <li>
+                  <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="4" cy="4" r="4" fill="#00AFD6" />
+                  </svg>
+                </li>
+              </ul>
+              <h4>Für dich da</h4>
+              <p>Du bekommst ein Teamtraining und kannst an Projekten & Afterworkveranstaltungen teilnehmen.</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section id="workday">
+        <h3>Wie sieht dein Arbeitstag aus?</h3>
+        <ul class="bubbles">
+          <li>Patient*innen versorgen</li>
+          <li>Feuer löschen</li>
+          <li>Technische Hilfeleistung</li>
+        </ul>
+      </section>
+      <section id="company">
+        <h3>Das Wichtigste über deinen (vielleicht!) Arbeitgeber.</h3>
+        <div class="companycard">
+          <h5>Mittelständisches Unternehmen</h5>
+          <img src="./images/logo.png" alt="Logo">
+          <h4>Feuerwehr Hamburg</h4>
+          <p>
+            Adresse
+            <a href="#">Westphalensweg 1, 20009 Hamburg</a>
+          </p>
+          <ul>
+            <li>
+              <a href="#" title="Instagram">
+                <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="22" cy="22" r="22" fill="#00AFD6" />
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M26 13H18C15.2386 13 13 15.2386 13 18V26C13 28.7614 15.2386 31 18 31H26C28.7614 31 31 28.7614 31 26V18C31 15.2386 28.7614 13 26 13ZM29.25 26C29.2445 27.7926 27.7926 29.2445 26 29.25H18C16.2074 29.2445 14.7555 27.7926 14.75 26V18C14.7555 16.2074 16.2074 14.7555 18 14.75H26C27.7926 14.7555 29.2445 16.2074 29.25 18V26ZM26.75 18.25C27.3023 18.25 27.75 17.8023 27.75 17.25C27.75 16.6977 27.3023 16.25 26.75 16.25C26.1977 16.25 25.75 16.6977 25.75 17.25C25.75 17.8023 26.1977 18.25 26.75 18.25ZM22 17.5C19.5147 17.5 17.5 19.5147 17.5 22C17.5 24.4853 19.5147 26.5 22 26.5C24.4853 26.5 26.5 24.4853 26.5 22C26.5027 20.8057 26.0294 19.6596 25.1849 18.8151C24.3404 17.9706 23.1943 17.4973 22 17.5ZM19.25 22C19.25 23.5188 20.4812 24.75 22 24.75C23.5188 24.75 24.75 23.5188 24.75 22C24.75 20.4812 23.5188 19.25 22 19.25C20.4812 19.25 19.25 20.4812 19.25 22Z"
+                    fill="white" />
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#" title="Facebook">
+                <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="22" cy="22" r="22" fill="#00AFD6" />
+                  <path
+                    d="M26.5 16H23.5C22.9477 16 22.5 16.4477 22.5 17V20H26.5C26.6137 19.9975 26.7216 20.0504 26.7892 20.1419C26.8568 20.2334 26.8758 20.352 26.84 20.46L26.1 22.66C26.0318 22.8619 25.8431 22.9984 25.63 23H22.5V30.5C22.5 30.7761 22.2761 31 22 31H19.5C19.2239 31 19 30.7761 19 30.5V23H17.5C17.2239 23 17 22.7761 17 22.5V20.5C17 20.2239 17.2239 20 17.5 20H19V17C19 14.7909 20.7909 13 23 13H26.5C26.7761 13 27 13.2239 27 13.5V15.5C27 15.7761 26.7761 16 26.5 16Z"
+                    fill="white" />
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#" title="YouTube">
+                <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="22" cy="22" r="22" fill="#00AFD6" />
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M30 14.49L28.54 14.34C24.1718 13.8867 19.7683 13.8867 15.4 14.34L14 14.49C12.2715 14.6854 10.9736 16.1607 11 17.9V26.1C10.9736 27.8393 12.2715 29.3146 14 29.51L15.46 29.66C17.6326 29.8869 19.8156 30.0004 22 30C24.1945 30.0014 26.3875 29.8879 28.57 29.66L30 29.51C31.7285 29.3146 33.0265 27.8393 33 26.1V17.9C33.0265 16.1607 31.7285 14.6854 30 14.49ZM31 26.1C31.0279 26.8055 30.5187 27.4182 29.82 27.52L28.36 27.67C26.2472 27.8901 24.1243 28.0003 22 28C19.8757 28.0003 17.7529 27.8901 15.64 27.67L14.18 27.52C13.4814 27.4182 12.9722 26.8055 13 26.1V17.9C12.9722 17.1945 13.4814 16.5818 14.18 16.48L15.64 16.33C19.8686 15.89 24.1314 15.89 28.36 16.33L29.82 16.48C30.5187 16.5818 31.0279 17.1945 31 17.9V26.1ZM20.3989 18.7387C20.6438 18.6089 20.9404 18.6247 21.17 18.78L25.06 21.38C25.2696 21.5166 25.3961 21.7498 25.3961 22C25.3961 22.2502 25.2696 22.4834 25.06 22.62L21.17 25.22C20.9404 25.3752 20.6438 25.3911 20.3989 25.2613C20.1539 25.1315 20.0005 24.8772 20 24.6V19.4C20.0005 19.1228 20.1539 18.8685 20.3989 18.7387Z"
+                    fill="white" />
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#" title="Web">
+                <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="22" cy="22" r="22" fill="#00AFD6" />
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M22 12C16.4772 12 12 16.4772 12 22C12 27.5228 16.4772 32 22 32C27.5228 32 32 27.5228 32 22C32 19.3478 30.9464 16.8043 29.0711 14.9289C27.1957 13.0536 24.6522 12 22 12ZM22 30C17.7975 29.9713 14.3336 26.6958 14.0703 22.5014C13.807 18.307 16.834 14.624 21 14.07V14.5C21 14.7761 20.7761 15 20.5 15C20.2239 15 20 15.2239 20 15.5V16.5C20 16.7761 20.2239 17 20.5 17H23.5C23.6307 16.9945 23.758 17.0427 23.8524 17.1333C23.9468 17.2239 24.0001 17.3492 24 17.48C23.9973 17.6153 24.0485 17.7461 24.1423 17.8436C24.236 17.9411 24.3647 17.9974 24.5 18C24.8978 18 25.2794 18.158 25.5607 18.4393C25.842 18.7206 26 19.1022 26 19.5V21H25C24.4477 21 24 20.5523 24 20V19.5C24 19.2239 23.7761 19 23.5 19H21.5C21.2239 19 21 18.7761 21 18.5C21 18.2239 20.7761 18 20.5 18H19.5C19.2239 18 19 18.2239 19 18.5V19C19 19.5523 18.5523 20 18 20C17.4477 20 17 20.4477 17 21V22C17 22.5523 17.4477 23 18 23H19.59C19.8523 23.0011 20.1037 23.1053 20.29 23.29L20.71 23.71C20.8947 23.8963 20.9989 24.1477 21 24.41V27C21 27.5523 21.4477 28 22 28H22.5C22.7761 28 23 27.7761 23 27.5C23 27.2239 23.2239 27 23.5 27C23.8978 27 24.2794 26.842 24.5607 26.5607C24.842 26.2794 25 25.8978 25 25.5V23.5C24.9938 23.2404 25.1912 23.0211 25.45 23C25.7337 23.0172 25.9787 22.8034 26 22.52V21H27C27.5523 21 28 20.5523 28 20V19H29.41C29.8001 19.952 30.0006 20.9711 30 22C30 24.1217 29.1571 26.1566 27.6569 27.6569C26.1566 29.1571 24.1217 30 22 30Z"
+                    fill="white" />
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </div>
+  </main>
+</body>
+
+</html>

@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+}
+
+input:checked~.phoneframe {
+  box-sizing: content-box !important;
+  padding: 80px 35px 125px 35px;
+  width: 375px;
+  height: 600px;
+  border-radius: 40px/3px;
+  margin: 0 auto;
+}
+
+input:checked~.phoneframe .top-bar,
+input:checked~.phoneframe .camera,
+input:checked~.phoneframe .volume,
+input:checked~.phoneframe .speaker {
+  display: block;
+}
+
+input:checked~.phoneframe .swipe-wrapper {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+input:checked~.phoneframe .screen {
+  border-radius: 1px;
+  box-shadow: 0 0 0 3px #111;
+  width: 100%;
+  position: relative;
+  height: 100%;
+  z-index: 3;
+  background: #f7f7f7;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+input:checked~.phoneframe nav {
+  position: sticky;
+  top: 0;
+  height: 60px;
+}
+
+.phoneframe {
+  margin-top: 15px;
+  display: block;
+  position: relative;
+}
+
+.phoneframe .screen {
+  display: block;
+}
+
+.phoneframe .top-bar {
+  height: 3px;
+  background: black;
+  display: none;
+  width: calc(100% - 24px);
+  height: calc(100% - 32px);
+  position: absolute;
+  top: 16px;
+  left: 12px;
+  border-radius: 24px;
+  z-index: 1;
+}
+
+.phoneframe .top-bar:before {
+  background: #1e1e1e;
+  display: block;
+  content: "";
+  width: calc(100% - 4px);
+  height: calc(100% - 4px);
+  top: 2px;
+  left: 2px;
+  position: absolute;
+  border-radius: 22px;
+}
+
+.phoneframe .volume {
+  display: none;
+  width: 3px;
+  position: absolute;
+  top: 130px;
+  height: 100px;
+  background: #1e1e1e;
+  right: -3px;
+  border-radius: 0px 2px 2px 0px;
+}
+
+.phoneframe .volume:before {
+  width: 3px;
+  position: absolute;
+  top: 190px;
+  content: "";
+  display: block;
+  height: 50px;
+  background: inherit;
+  right: 0px;
+  border-radius: 0px 2px 2px 0px;
+}
+
+.phoneframe .volume:after {
+  width: 3px;
+  position: absolute;
+  top: 460px;
+  content: "";
+  display: block;
+  height: 50px;
+  background: inherit;
+  right: 0px;
+  border-radius: 0px 2px 2px 0px;
+}
+
+.phoneframe .camera {
+  display: none;
+  background: #3c3d3d;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: 34px;
+  right: 130px;
+  z-index: 5;
+  border-radius: 5px;
+}
+
+.phoneframe .speaker {
+  display: none;
+  background: #292728;
+  width: 64px;
+  height: 10px;
+  position: absolute;
+  top: 38px;
+  left: 50%;
+  margin-left: -32px;
+  border-radius: 5px;
+  z-index: 3;
+}
