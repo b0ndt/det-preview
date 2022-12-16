@@ -1400,6 +1400,7 @@ label:active:after {
     overflow-x: auto;
     overflow-y: hidden;
     scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
   }
 
   #facts .factlist>li {
