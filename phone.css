@@ -20,9 +20,18 @@
     display: block;
   }
 
-  input:checked~.phoneframe .swipe-wrapper {
+  input:checked~.phoneframe .swiper {
+    scroll-snap-type: x mandatory;
     overflow-x: auto;
     overflow-y: hidden;
+  }
+
+  input:checked~.phoneframe .swiper li {
+    scroll-snap-align: start;
+  }
+
+  input:checked~.phoneframe #details .swiper li {
+    scroll-margin-left: 12px;
   }
 
   input:checked~.phoneframe .screen {
